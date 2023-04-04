@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parrallel suite" verbose="2" parallel="classes" thread-count="2">
+    <test name="Cucumber tests">
+         <classes>
+             <class name="Runner.TestRunner"></class>
+         </classes>
+    </test>
+</suite>
